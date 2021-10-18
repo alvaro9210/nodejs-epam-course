@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-epam-course",
+  "version": "1.0.0",
+  "description": "EPAM's repo for NodeJS tasks",
+  "main": "index.js",
+  "scripts": {
+    "task1": "node ./lib/task1.js",
+    "task2": "node ./lib/task2.js",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvaro9210/nodejs-epam-course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alvaro9210/nodejs-epam-course/issues"
+  },
+  "homepage": "https://github.com/alvaro9210/nodejs-epam-course#readme",
+  "dependencies": {
+    "csvtojson": "^2.0.10"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8"
+  }
+}
